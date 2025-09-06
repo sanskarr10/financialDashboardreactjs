@@ -1,0 +1,42 @@
+{
+  "name": "financial-dashboard-nextjs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "",
+    "cap:init": "npx cap init FinancialDashboard com.example.financialdashboard -y",
+    "cap:sync": "npx cap sync",
+    "cap:android": "npx cap open android",
+    "cap:ios": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "autoprefixer": "^10.4.19",
+    "clsx": "^2.1.1",
+    "html2canvas": "^1.4.1",
+    "jsPDF": "^1.5.3",
+    "jspdf": "^2.5.1",
+    "next": "14.2.5",
+    "next-themes": "^0.3.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "^2.12.7",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.9",
+    "typescript": "^5.5.4"
+  }
+}
