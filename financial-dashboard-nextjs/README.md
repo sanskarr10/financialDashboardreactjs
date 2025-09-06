@@ -80,13 +80,3 @@ npm run cap:android
 npm run cap:ios
 ```
 
-> Tip: For development with live reload on device, run `npm run dev` and use a LAN
-> accessible URL. You can set `server.url` in `capacitor.config.ts` accordingly.
-
-## Screenshots
-Add your final UI screenshot in the repo root as `screenshot.png`.
-
-## Notes
-- If you see SSR warnings from chart libs, we’re dynamically importing Recharts in client components.
-- Tailwind is already configured with class-based dark mode.
-- For A4 PDF fit, we auto-scale the captured container to the page.
